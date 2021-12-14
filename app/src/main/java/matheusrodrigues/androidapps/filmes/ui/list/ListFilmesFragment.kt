@@ -1,0 +1,18 @@
+package matheusrodrigues.androidapps.filmes.ui.list
+
+import android.view.LayoutInflater
+import android.view.ViewGroup
+import androidx.fragment.app.viewModels
+import matheusrodrigues.androidapps.filmes.databinding.FragmentListFilmesBinding
+import matheusrodrigues.androidapps.filmes.ui.base.BaseFragment
+
+
+class ListFilmesFragment : BaseFragment<FragmentListFilmesBinding, ListFilmesViewModel>(){
+    override val viewModel: ListFilmesViewModel by viewModels()
+
+
+    override fun getViewBinding(
+        inflater: LayoutInflater,
+        container: ViewGroup?
+    ): FragmentListFilmesBinding = FragmentListFilmesBinding.inflate(inflater, container, false)
+}
