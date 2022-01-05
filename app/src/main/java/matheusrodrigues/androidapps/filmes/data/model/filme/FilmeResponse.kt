@@ -1,14 +1,9 @@
 package matheusrodrigues.androidapps.filmes.data.model.filme
 
-import androidx.room.Entity
-import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
-import java.io.Serializable
 
-@Entity(tableName = "filmeModel")
-data class FilmeModel(
+data class FilmeResponse(
 
-    @PrimaryKey(autoGenerate = true)
     @SerializedName("Title")
     val title: String,
     @SerializedName("Year")
@@ -33,5 +28,4 @@ data class FilmeModel(
     val rated: String,
     @SerializedName("Ratings")
     val ratings: List<RatingsResponse>
-
-) : Serializable
+)
