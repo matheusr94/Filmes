@@ -1,4 +1,4 @@
-package matheusrodrigues.androidapps.filmes.ui.adapters
+package matheusrodrigues.androidapps.filmes.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -6,7 +6,6 @@ import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import matheusrodrigues.androidapps.filmes.data.model.filme.FilmeModel
-import matheusrodrigues.androidapps.filmes.databinding.ActivityMainBinding
 import matheusrodrigues.androidapps.filmes.databinding.ItemFilmeBinding
 
 class FilmesAdapter : RecyclerView.Adapter<FilmesAdapter.FilmesViewHolder>() {
@@ -51,7 +50,6 @@ class FilmesAdapter : RecyclerView.Adapter<FilmesAdapter.FilmesViewHolder>() {
             tvYear.text = filme.year
             tvRuntime.text = filme.runtime
             tvGenre.text = filme.genre
-
         }
     }
 

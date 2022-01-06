@@ -4,18 +4,26 @@
 
     <!--    Item character and Item comic -->
     <string name="tx_item_name">Nome</string>
-    <string name="tv_item_rating">Rating</string>
+    <string name="tv_item_rating">Avaliação</string>
     <string name="tv_item_type">Categoria</string>
     <string name="tv_item_year">Ano</string>
-    <string name="tv_item_runtime">Runtime</string>
+    <string name="tv_item_runtime">Tempo de Duração</string>
     <string name="tv_item_genre">Gênero</string>
-    <string name="text_description_empty">Esse personagem não possui descrição.</string>
     <string name="comics">Filmes</string>
+
+    <!--    Search Filmes -->
+    <string name="search_hint">Pesquise um Filme</string>
 
     <!--    Menu details -->
     <string name="favorite">Favoritar</string>
+
+    <!--    Favorite Filmes  -->
+    <string name="tv_empty_text">Nada aqui.</string>
+
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="filmes_app">Filmes App</string>
 
 
 </resources>

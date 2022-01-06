@@ -1,4 +1,4 @@
-package matheusrodrigues.androidapps.filmes
+package matheusrodrigues.androidapps.filmes.ui.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -7,11 +7,10 @@ import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import dagger.hilt.android.AndroidEntryPoint
+import matheusrodrigues.androidapps.filmes.R
 import matheusrodrigues.androidapps.filmes.data.api.ServiceApi
-import matheusrodrigues.androidapps.filmes.data.model.filme.FilmeResponse
 import matheusrodrigues.androidapps.filmes.data.model.filme.SearchReponse
 import matheusrodrigues.androidapps.filmes.databinding.ActivityMainBinding
-import retrofit2.Response
 import javax.inject.Inject
 
 @AndroidEntryPoint
