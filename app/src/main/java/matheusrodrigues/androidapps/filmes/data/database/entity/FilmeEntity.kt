@@ -44,8 +44,8 @@ data class FilmeEntity(
     @ColumnInfo(name = "rated")
     val rated: String,
 
-    @ColumnInfo(name = "ratings")
-    val ratings: List<RatingsResponse>
+    /*@ColumnInfo(name = "ratings")
+    val ratings: List<RatingsResponse>*/
 
 
     )

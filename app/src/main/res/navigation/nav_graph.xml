@@ -39,6 +39,7 @@
         tools:layout="@layout/fragment_search_filmes" >
         <action
             android:id="@+id/action_searchFilmesFragment_to_detailsFilmesFragment"
-            app:destination="@id/detailsFilmesFragment" />
+            app:destination="@id/detailsFilmesFragment" >
+        </action>
     </fragment>
 </navigation>
